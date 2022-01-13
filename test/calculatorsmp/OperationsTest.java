@@ -14,7 +14,11 @@ import static org.junit.Assert.*;
 
 /**
  *
+<<<<<<< HEAD
+ * @author Eliot
+=======
  * @author rsgar
+>>>>>>> 67ae55b59fbc140193859314ecaf3bb0304ed8f5
  */
 public class OperationsTest {
     
@@ -47,7 +51,6 @@ public class OperationsTest {
         String result = Operations.MakeFormula();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("No son iguales.");
     }
 
     /**
