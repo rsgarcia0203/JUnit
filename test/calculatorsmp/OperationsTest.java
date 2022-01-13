@@ -43,11 +43,11 @@ public class OperationsTest {
     @Test
     public void testMakeFormula() {
         System.out.println("MakeFormula");
-        String expResult = "";
+        String expResult = Operations.MakeFormula();
         String result = Operations.MakeFormula();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        fail("No son iguales.");
     }
 
     /**
@@ -56,8 +56,8 @@ public class OperationsTest {
     @Test
     public void testSolve() {
         System.out.println("Solve");
-        String formula = "";
-        String expResult = "";
+        String formula = Operations.MakeFormula();
+        String expResult = Operations.Solve(formula);
         String result = Operations.Solve(formula);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
