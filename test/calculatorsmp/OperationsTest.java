@@ -14,7 +14,11 @@ import static org.junit.Assert.*;
 
 /**
  *
+<<<<<<< HEAD
  * @author Eliot
+=======
+ * @author rsgar
+>>>>>>> 67ae55b59fbc140193859314ecaf3bb0304ed8f5
  */
 public class OperationsTest {
     
@@ -43,11 +47,19 @@ public class OperationsTest {
     @Test
     public void testMakeFormula() {
         System.out.println("MakeFormula");
+<<<<<<< HEAD
         String expResult = Operations.MakeFormula();
         String result = Operations.MakeFormula();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("No son iguales");
+=======
+        String expResult = "";
+        String result = Operations.MakeFormula();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+>>>>>>> 67ae55b59fbc140193859314ecaf3bb0304ed8f5
     }
 
     /**
